@@ -3,6 +3,11 @@ body{
     font-size: 16px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 header{
     background-image: url(../imagenes/papeleria.jpg);
     background-size: cover;
@@ -25,10 +30,23 @@ header .opacarImg{
 .container-contacto{
     text-align: right;
     position: relative;
+    padding-top: 40px;
 }
 
-.container-contacto h3{
+.container-contacto .contacto-title{
     margin: 0;
     padding: 40px 220px 0 0;
     font-weight: normal;
+    font-size: 1rem;
+    color: white;
+}
+
+.container-nombre {
+    position: relative;
+    text-align: center;
+}
+
+.container-nombre h2 {
+    margin: 120px 310px;
+    border: solid white;
 }
