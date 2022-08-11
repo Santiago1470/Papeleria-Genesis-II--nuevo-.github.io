@@ -100,15 +100,18 @@ header .opacarImg{
 }
 
 
-/* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
+/* ---------------------- SECCION BASE DE DISEÑO TITULOS ---------------------- */
 
-.titulo-oferta{
+.titulos{
     margin: 30px auto;
     text-align: center;
     height: 56px;
     border-top: #BBBBBB solid 2px;
     border-bottom: #BBBBBB solid 2px;
 }
+
+
+/* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
 
 .container-oferta{
     padding: 10px;
@@ -125,4 +128,23 @@ header .opacarImg{
 .tarjetas div{
     background-color: gray;
     height: 304px;
+}
+
+
+/* ---------------------- SECCION UBICACION ---------------------- */
+
+.section-ubicacion{
+    background-color: #F5F5F5;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+/*
+.titulo-ubicacion{
+    margin-top: 50px;
+}
+*/
+
+.container-ubicacion div iframe{
+    width: 100%;
 }
