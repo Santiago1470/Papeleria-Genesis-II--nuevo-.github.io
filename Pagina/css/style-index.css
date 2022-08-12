@@ -137,6 +137,7 @@ header .opacarImg{
     background-color: #F5F5F5;
     margin-top: 50px;
     padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 /*
@@ -147,4 +148,32 @@ header .opacarImg{
 
 .container-ubicacion div iframe{
     width: 100%;
+}
+
+
+/* ---------------------- SECCION FOOTER ---------------------- */
+
+footer{
+    background-color: #393939;
+    color: white;
+}
+
+footer p{
+    margin: 0;
+}
+
+.container-footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-atencion{
+    width: 50%;
+    text-align: center;
+}
+
+.container-papeleria{
+    width: 50%;
+    text-align: center;
 }
