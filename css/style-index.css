@@ -171,9 +171,32 @@ footer p{
 .container-atencion{
     width: 50%;
     text-align: center;
+    /*padding-left: 50px;*/
 }
 
 .container-papeleria{
     width: 50%;
     text-align: center;
+}
+
+.container-horas {
+    font-weight: lighter;
+    padding: 0 20px;
+    width: 250px;
+    margin: auto;
+}
+
+.container-horas ul {
+    padding: 0 25px 25px 0;
+    margin: 0;
+    text-align: left;
+}
+
+.container-titulo-footer h4{
+    margin-top: 30px;
+}
+
+.container-footer-info{
+    text-align: left;
+    font-weight: lighter;
 }
