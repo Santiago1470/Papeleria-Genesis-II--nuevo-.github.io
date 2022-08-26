@@ -75,6 +75,7 @@ footer p{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
 }
 
 .container-atencion{

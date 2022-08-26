@@ -24,6 +24,7 @@ header .opacarImg{
 .menu{
     position: relative;
     top: 50px;
+    
 }
 
 .nav-servicios{
@@ -32,3 +33,7 @@ header .opacarImg{
 
 
 /* ---------------------- SECCIÓN SERVICIOS DISPONIBLES ---------------------- */
+
+.section-servicios{
+    padding-top: 45px;
+}
