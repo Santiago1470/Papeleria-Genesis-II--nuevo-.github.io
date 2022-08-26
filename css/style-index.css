@@ -1,16 +1,3 @@
-body{
-    font-family: 'Open Sans', sans-serif, Arial;
-    font-size: 16px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-
-/* ---------------------- HEADER ---------------------- */
-
 header{
     background-image: url(../imagenes/papeleria.jpg);
     background-size: cover;
@@ -37,8 +24,8 @@ header .opacarImg{
 }
 
 .container-contacto .contacto-title{
-    margin: 0;
-    padding: 40px 220px 0 0;
+    margin: 40px 220px 0 0;
+    /*padding: 40px 220px 0 0;*/
     font-weight: 300;
     font-size: 1.2rem;
     color: white;
@@ -62,6 +49,10 @@ header .opacarImg{
 
 /* ---------------------- BARRA DE NAVEGACION ---------------------- */
 
+.nav-inicio{
+    background-color: rgb(94, 94, 94);
+}
+/*
 .menu{
     position: relative;
     top: 170px;
@@ -97,18 +88,9 @@ header .opacarImg{
     height: 60px;
     margin: -30px 5px 0 5px;
     border: rgba(255, 255, 255, 0.603) solid 4px;
-}
+}*/
 
 
-/* ---------------------- SECCION BASE DE DISEÑO TITULOS ---------------------- */
-
-.titulos{
-    margin: 30px auto;
-    text-align: center;
-    height: 56px;
-    border-top: #BBBBBB solid 2px;
-    border-bottom: #BBBBBB solid 2px;
-}
 
 
 /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
@@ -148,55 +130,4 @@ header .opacarImg{
 
 .container-ubicacion div iframe{
     width: 100%;
-}
-
-
-/* ---------------------- SECCION FOOTER ---------------------- */
-
-footer{
-    background-color: #393939;
-    color: white;
-}
-
-footer p{
-    margin: 0;
-}
-
-.container-footer{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.container-atencion{
-    width: 50%;
-    text-align: center;
-    /*padding-left: 50px;*/
-}
-
-.container-papeleria{
-    width: 50%;
-    text-align: center;
-}
-
-.container-horas {
-    font-weight: lighter;
-    padding: 0 20px;
-    width: 250px;
-    margin: auto;
-}
-
-.container-horas ul {
-    padding: 0 25px 25px 0;
-    margin: 0;
-    text-align: left;
-}
-
-.container-titulo-footer h4{
-    margin-top: 30px;
-}
-
-.container-footer-info{
-    text-align: left;
-    font-weight: lighter;
 }
