@@ -64,8 +64,6 @@ a{
 
 footer{
     background-color: #393939;
-    color: white;
-    text-decoration: underline;
 }
 
 footer p{
@@ -110,6 +108,8 @@ footer p{
 .container-footer-info{
     text-align: left;
     font-weight: lighter;
+    color: white;
+    text-decoration: underline;
 }
 
 /* ---------------------- SECCION COPYRIGHT ---------------------- */
