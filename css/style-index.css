@@ -1,3 +1,6 @@
+
+/* ---------------------- HEADER ---------------------- */
+
 header{
     background-image: url(../imagenes/papeleria.jpg);
     background-size: cover;
@@ -52,6 +55,7 @@ header .opacarImg{
 .nav-inicio{
     background-color: rgb(94, 94, 94);
 }
+
 /*
 .menu{
     position: relative;
@@ -131,3 +135,110 @@ header .opacarImg{
 .container-ubicacion div iframe{
     width: 100%;
 }
+
+@media screen and (max-width: 1024px){
+
+    /* ---------------------- HEADER ---------------------- */
+
+    header{
+        height: 505px;
+    }
+    
+    header .opacarImg{
+        height: 505px;
+    }
+
+    .container-contacto .contacto-title{
+        font-size: 1rem;
+    }
+
+    .container-nombre {
+        margin: 110px auto;
+    }
+
+    .container-nombre h2 {
+        font-size: 1.8rem;
+    }
+
+    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
+
+    .tarjetas{
+        grid-template-columns: repeat(3, 215px);
+    }
+    
+    .tarjetas div{
+        height: 297px;
+    }
+}
+
+@media screen and (max-width: 765px){
+
+    /* ---------------------- HEADER ---------------------- */
+
+    header{
+        height: 300px;
+    }
+    
+    header .opacarImg{
+        height: 300px;
+    }
+
+    .container-contacto .contacto-title{
+        font-size: 1rem;
+    }
+
+    .container-nombre {
+        margin: 110px auto;
+    }
+
+    .container-nombre h2 {
+        font-size: 1.8rem;
+    }
+
+    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
+
+    .tarjetas{
+        grid-template-columns: repeat(3, 215px);
+    }
+    
+    .tarjetas div{
+        height: 297px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 764px) {
+
+    /* ---------------------- HEADER ---------------------- */
+
+    header{
+        height: 245px;
+    }
+    
+    header .opacarImg{
+        height: 245px;
+    }
+
+    .container-contacto .contacto-title{
+        font-size: 0.8rem;
+    }
+
+    .container-nombre {
+        margin: 30px auto 60px auto;
+    }
+
+    .container-nombre h2 {
+        font-size: 1rem;
+        padding: 15px 15px;
+    }
+    
+    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
+
+    .tarjetas{
+        grid-template-columns: repeat(2, 215px);
+    }
+    
+    .tarjetas div{
+        height: 297px;
+    }
+}
+

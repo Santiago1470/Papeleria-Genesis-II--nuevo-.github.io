@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif, Arial;
     font-size: 16px;
+    width: 100%;
 }
 
 a{
@@ -119,4 +120,107 @@ footer p{
 
 .copyright{
     text-align: center;
+}
+
+
+/* ---------------------- SECCION MEDIA SCREEN ---------------------- */
+
+
+@media screen and (max-width: 1024px) {
+    
+    /* ---------------------- BARRA DE NAVEGACION ---------------------- */
+    
+    .menu{
+        top: 101px;
+        height: 47px;
+    }
+
+    .menu ul{
+        font-size: 1rem;
+    }
+
+    .logoPapeleria img{
+        width: 262px;
+        height: 57px;
+    }
+
+    /* ---------------------- SECCION FOOTER ---------------------- */
+
+    .container-footer{
+        font-size: 0.9rem;
+    }
+
+    /* ---------------------- SECCION COPYRIGHT ---------------------- */
+
+    .copyright{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 765px){
+    
+    /* ---------------------- BARRA DE NAVEGACION ---------------------- */
+    
+    .menu{
+        top: 101px;
+        height: 47px;
+    }
+
+    .menu ul{
+        font-size: 1rem;
+    }
+
+    .logoPapeleria img{
+        width: 262px;
+        height: 57px;
+    }
+
+    /* ---------------------- SECCION FOOTER ---------------------- */
+
+    .container-footer{
+        font-size: 0.9rem;
+    }
+
+    /* ---------------------- SECCION COPYRIGHT ---------------------- */
+
+    .copyright{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 764px){
+    
+    /* ---------------------- BARRA DE NAVEGACION ---------------------- */
+    
+    .menu{
+        top: 10px;
+        height: 43px;
+    }
+
+    .menu ul{
+        font-size: 0.8rem;
+    }
+
+    .logoPapeleria img{
+        width: 245px;
+        height: 50px;
+    }
+
+    /* ---------------------- SECCION FOOTER ---------------------- */
+
+    .container-footer{
+        font-size: 0.9rem;
+    }
+
+    /* ---------------------- SECCION COPYRIGHT ---------------------- */
+
+    .copyright{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .menu{
+        display: none;
+    }
 }
