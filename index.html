@@ -7,19 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
     <link rel="stylesheet" href="css/style-general.css" />
     <link rel="stylesheet" href="css/style-index.css" />
     <title>Papeleria Genesis II</title>
 </head>
 <body>
     <header>
-        <div class="opacarImg"></div>
-        <div class="container-contacto">
-            <a class="contacto-title" href="#">CONTACTO</a>
-        </div>
-        <div class="container-nombre">
-            <h2>PAPELERÍA GENESIS II</h2>
+        <div class="encabezado">
+            <div class="opacarImg"></div>
+            <div class="container-contacto">
+                <a class="contacto-title" href="#contacto">CONTACTO</a>
+            </div>
+            <div class="container-nombre">
+                <h2>PAPELERÍA GENESIS II</h2>
+            </div>
         </div>
         <nav class="menu">
             <ul>
@@ -31,13 +33,22 @@
             </ul>
         </nav>
         <nav class="menuDesplegable">
-            <ul>
-                <li class="nav-inicio"><a href="index.html">INICIO</a></li>
-                <li class="nav-servicios"><a href="servicios.html">SERVICIOS</a></li>
-                <li class="logoPapeleria"><a href="index.html"><img src="imagenes/logos/logoDA.png" alt="PAPELERÍA GENESIS II"></a></li>
-                <li class="nav-papeleria"><a href="#">PAPELERÍA</a></li>
-                <li class="nav-mas"><a href="#">MÁS</a></li>
-            </ul>
+            <div class="barras-abrir-menu">
+                <img src="imagenes/logos/icono-menu.png" alt="Icono de barra para menu">
+                <ul>
+                    <li class="logoPapeleria"><a href="index.html"><img src="imagenes/logos/logoDA.png" alt="PAPELERÍA GENESIS II"></a></li>
+                </ul>
+                <img src="imagenes/logos/icono-menu.png" alt="Icono de barra para menu">
+            </div>
+            <div class="contenerdor-menu-desplegable">
+                <ul>
+                    <li class="navDesple-inicio"><a href="index.html">INICIO</a></li>
+                    <li class="navDesple-servicios"><a href="servicios.html">SERVICIOS</a></li>
+                    <li class="logoPapeleria"><a href="index.html"><img src="imagenes/logos/logoDA.png" alt="PAPELERÍA GENESIS II"></a></li>
+                    <li class="navDesple-papeleria"><a href="#">PAPELERÍA</a></li>
+                    <li class="navDesple-mas"><a href="#">MÁS</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section>
@@ -94,7 +105,7 @@
                 <div class="container-titulo-footer">
                     <h4>Papelería Genesis II</h4>
                 </div>
-                <div class="container-footer-info">
+                <div class="container-footer-info" id="contacto">
                     <p>Descripción de la papelería, lo que ofrece, en lo que ayuda, etc.</p>
                     <br />
                     <p>

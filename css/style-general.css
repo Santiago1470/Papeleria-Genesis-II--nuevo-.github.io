@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif, Arial;
+}
+
 body{
     font-family: 'Open Sans', sans-serif, Arial;
     font-size: 16px;
@@ -14,7 +20,6 @@ a{
 
 .menu{
     position: relative;
-    top: 170px;
     height: 50px;
     background-color: #424242;
 }
@@ -49,8 +54,30 @@ a{
     border: rgba(255, 255, 255, 0.603) solid 4px;
 }
 
+/* ---------------------- BARRA DE NAVEGACION MOBILE ---------------------- */
 
-/* ---------------------- SECCION BASE DE DISEÑO TITULOS ---------------------- */
+.menuDesplegable,
+.contenerdor-menu-desplegable {
+    display: none;
+}
+
+.menuDesplegable{
+    position: relative;
+    height: 50px;
+    background-color: #424242;
+}
+
+.barras-abrir-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.barras-abrir-menu img {
+    width: 35px;
+}
+
+/* -------------------- SECCION BASE DE DISEÑO TITULOS -------------------- */
 
 .titulos{
     margin: 30px auto;
@@ -60,6 +87,9 @@ a{
     border-bottom: #BBBBBB solid 2px;
 }
 
+.titulos h3 {
+    padding-top: 15px;
+}
 
 /* ---------------------- SECCION FOOTER ---------------------- */
 
@@ -125,15 +155,9 @@ footer p{
 
 /* ---------------------- SECCION MEDIA SCREEN ---------------------- */
 
-
 @media screen and (max-width: 1024px) {
     
     /* ---------------------- BARRA DE NAVEGACION ---------------------- */
-    
-    .menu{
-        top: 101px;
-        height: 47px;
-    }
 
     .menu ul{
         font-size: 1rem;
@@ -157,70 +181,12 @@ footer p{
     }
 }
 
-@media screen and (max-width: 765px){
-    
-    /* ---------------------- BARRA DE NAVEGACION ---------------------- */
-    
-    .menu{
-        top: 101px;
-        height: 47px;
-    }
-
-    .menu ul{
-        font-size: 1rem;
-    }
-
-    .logoPapeleria img{
-        width: 262px;
-        height: 57px;
-    }
-
-    /* ---------------------- SECCION FOOTER ---------------------- */
-
-    .container-footer{
-        font-size: 0.9rem;
-    }
-
-    /* ---------------------- SECCION COPYRIGHT ---------------------- */
-
-    .copyright{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (min-width: 650px) and (max-width: 764px){
-    
-    /* ---------------------- BARRA DE NAVEGACION ---------------------- */
-    
-    .menu{
-        top: 10px;
-        height: 43px;
-    }
-
-    .menu ul{
-        font-size: 0.8rem;
-    }
-
-    .logoPapeleria img{
-        width: 245px;
-        height: 50px;
-    }
-
-    /* ---------------------- SECCION FOOTER ---------------------- */
-
-    .container-footer{
-        font-size: 0.9rem;
-    }
-
-    /* ---------------------- SECCION COPYRIGHT ---------------------- */
-
-    .copyright{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .menu{
+@media screen and (max-width: 750px) {
+    .menu {
         display: none;
+    }
+
+    .menuDesplegable {
+        display: block;
     }
 }

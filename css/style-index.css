@@ -2,33 +2,42 @@
 /* ---------------------- HEADER ---------------------- */
 
 header{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.encabezado{
     background-image: url(../imagenes/papeleria.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 600px;
-    height: 600px;
-    color: white;
-}
-
-header .opacarImg{
-    position: absolute;
-    background-color: #AA5315;
-    opacity: 0.6;
     width: 100%;
     max-height: 600px;
-    height: 600px;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado .opacarImg{
+    position: absolute;
+    background-color: #AA5315;
+    width: 100%;
+    max-height: 600px;
+    height: 500px;
+    top: 0;
+    opacity: 0.6;
 }
 
 .container-contacto{
-    text-align: right;
     position: relative;
-    padding-top: 40px;
+    height: 50px;
+    text-align: right;
+    padding: 50px 220px 0 0;
 }
 
 .container-contacto .contacto-title{
-    margin: 40px 220px 0 0;
-    /*padding: 40px 220px 0 0;*/
     font-weight: 300;
     font-size: 1.2rem;
     color: white;
@@ -36,8 +45,9 @@ header .opacarImg{
 
 .container-nombre {
     position: relative;
-    /*margin: 120px auto;*/
-    margin: 120px auto;
+    height: 100%;
+    margin: 0;
+    padding: 100px 0 50px 0;
 }
 
 .container-nombre h2 {
@@ -136,24 +146,15 @@ header .opacarImg{
     width: 100%;
 }
 
+
+/* ---------------------- SECCION MEDIA QUERIES ---------------------- */
+
 @media screen and (max-width: 1024px){
 
     /* ---------------------- HEADER ---------------------- */
 
-    header{
-        height: 505px;
-    }
-    
-    header .opacarImg{
-        height: 505px;
-    }
-
     .container-contacto .contacto-title{
         font-size: 1rem;
-    }
-
-    .container-nombre {
-        margin: 110px auto;
     }
 
     .container-nombre h2 {
@@ -162,83 +163,9 @@ header .opacarImg{
 
     /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
 
-    .tarjetas{
-        grid-template-columns: repeat(3, 215px);
-    }
     
-    .tarjetas div{
-        height: 297px;
-    }
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 750px){
 
-    /* ---------------------- HEADER ---------------------- */
-
-    header{
-        height: 300px;
-    }
-    
-    header .opacarImg{
-        height: 300px;
-    }
-
-    .container-contacto .contacto-title{
-        font-size: 1rem;
-    }
-
-    .container-nombre {
-        margin: 110px auto;
-    }
-
-    .container-nombre h2 {
-        font-size: 1.8rem;
-    }
-
-    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
-
-    .tarjetas{
-        grid-template-columns: repeat(3, 215px);
-    }
-    
-    .tarjetas div{
-        height: 297px;
-    }
 }
-
-@media screen and (min-width: 650px) and (max-width: 764px) {
-
-    /* ---------------------- HEADER ---------------------- */
-
-    header{
-        height: 245px;
-    }
-    
-    header .opacarImg{
-        height: 245px;
-    }
-
-    .container-contacto .contacto-title{
-        font-size: 0.8rem;
-    }
-
-    .container-nombre {
-        margin: 30px auto 60px auto;
-    }
-
-    .container-nombre h2 {
-        font-size: 1rem;
-        padding: 15px 15px;
-    }
-    
-    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
-
-    .tarjetas{
-        grid-template-columns: repeat(2, 215px);
-    }
-    
-    .tarjetas div{
-        height: 297px;
-    }
-}
-
