@@ -73,6 +73,10 @@ a{
     justify-content: center;
 }
 
+.barras-abrir-menu ul {
+    list-style: none;
+}
+
 .barras-abrir-menu img {
     width: 35px;
 }
