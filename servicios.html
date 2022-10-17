@@ -7,14 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
     <link rel="stylesheet" href="css/style-general.css" />
     <link rel="stylesheet" href="css/style-servicios.css" />
     <title>Papeleria Genesis II</title>
 </head>
 <body>
     <header>
-        <div class="opacarImg"></div>
+        <div class="container-opacar">
+            <div class="opacarImg"></div>
+        </div>
         <nav class="menu">
             <ul>
                 <li class="nav-inicio"><a href="index.html">INICIO</a></li>
@@ -24,6 +26,33 @@
                 <li class="nav-mas"><a href="#">MÁS</a></li>
             </ul>
         </nav>
+        <nav class="menuDesplegable">
+            <span id="direccionar-a-menu"></span>
+            <div class="barras-abrir-menu">
+                <div class="contenedor-logo-menu">
+                    <a href="#direccionar-a-menu"><img id="logo-menu-desplegable" src="imagenes/logos/icono-menu.png" alt="Icono de barra para menu"></a>
+                </div>
+                <div id="contenedor-logo-papeleria" class="contenedor-logo-papeleria">
+                    <ul>
+                        <li class="logoPapeleria" id="logoPapeleria"><a href="index.html"><img src="imagenes/logos/logoDA.png" alt="PAPELERÍA GENESIS II"></a></li>
+                    </ul>
+                </div>
+                <div class="contenedor-logo-menu quitar-logo-escondido">
+                    <img src="imagenes/logos/icono-menu.png" alt="Icono de barra para menu" class="ocultar-logo-menu">
+                </div>
+            </div>
+            <div id="contenedor-menu-desplegable" class="contenedor-menu-desplegable">
+                <img id="salir-menu-desplegado" class="salir-menu-desplegado" src="imagenes/logos/cerrar.png" alt="Icono de la equis para cerrar menu desplegable">
+                <hr>
+                <ul>
+                    <li class="logoPapeleria"><a href="index.html"><img src="imagenes/logos/logoDA.png" alt="PAPELERÍA GENESIS II"></a></li>
+                    <li class="navDesple-inicio"><a href="index.html">INICIO</a></li>
+                    <li class="navDesple-servicios"><a href="servicios.html">SERVICIOS</a></li>
+                    <li class="navDesple-papeleria"><a href="#">PAPELERÍA</a></li>
+                    <li class="navDesple-mas"><a href="#">MÁS</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <section class="section-servicios">
         <div class="titulos">
@@ -31,6 +60,12 @@
         </div>
         <div class="container-oferta">
             <div class="tarjetas">
+                <div>
+                </div>
+                <div>
+                </div>
+                <div>
+                </div>
                 <div>
                 </div>
                 <div>
@@ -94,5 +129,6 @@
     <br />
   
 <!-- FIN DE SECCIÓN COPYRIGHT -->
+    <script src="js/js-general.js"></script>
 </body>
 </html>

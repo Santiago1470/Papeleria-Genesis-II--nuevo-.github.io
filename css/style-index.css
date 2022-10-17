@@ -66,6 +66,12 @@ header{
     background-color: rgb(94, 94, 94);
 }
 
+.navDesple-inicio {
+    box-shadow: 0px 0px 6px 2px rgb(100, 100, 100);
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
 /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
 
 .container-oferta{
@@ -95,14 +101,52 @@ header{
     padding-bottom: 40px;
 }
 
-/*
-.titulo-ubicacion{
-    margin-top: 50px;
+.container-ubicacion .container-divs {
+    position: relative;
+    z-index: 1;
 }
-*/
 
 .container-ubicacion div iframe{
     width: 100%;
+}
+
+
+.bloquear-mapa {
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.575);
+    width: 100%;
+    height: 450px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+}
+
+.bloquear-mapa h4 {
+    color: white;
+}
+
+.opcionDesbloqueo {
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.747);
+    height: 40px;
+    width: 145px;
+    padding: 5px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 460px;
+    cursor: pointer;
+}
+
+.opcionDesbloqueo h4 {
+    color: rgb(235, 235, 235);
+    font-size: 0.8rem;
 }
 
 
@@ -173,5 +217,16 @@ header{
 
     .tarjetas div{
         height: 304px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .opcionDesbloqueo {
+        height: 30px;
+        width: 120px;
+    }
+
+    .opcionDesbloqueo h4 {
+        font-size: 0.65rem;
     }
 }

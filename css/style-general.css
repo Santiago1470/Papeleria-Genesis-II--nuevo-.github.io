@@ -112,7 +112,7 @@ a{
 }
 
 .contenedor-menu-desplegable ul {
-    padding-left: 50px;
+    padding-left: 10px;
     list-style: none;
 }
 
@@ -124,8 +124,9 @@ a{
 
 .contenedor-menu-desplegable li {
     font-size: 1.3rem;
-    padding: 6px 0 6px 0;
-    list-style: circle;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    list-style: none;
 }
 
 .logoPapeleria {
@@ -135,11 +136,11 @@ a{
 .contenedor-menu-desplegable hr {
     position: absolute;
     top: 50px;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(194, 194, 194);
     border: none;
     height: 2px;
     width: 100%;
-    box-shadow: 1px 5px 5px 0px rgb(59, 59, 59);
+    box-shadow: 1px 3px 4px 1px rgb(73, 73, 73);
 }
 
 @keyframes mover-menu-desplegable {
@@ -326,10 +327,35 @@ footer p{
 
 }
 
+@media screen and (max-width: 520px){
+
+    .contenedor-menu-desplegable {
+        width: 80%;
+    }
+
+    .logoPapeleria img{
+        width: 270px;
+        height: 60px;
+    }
+
+    .salir-menu-desplegado {
+        top: 1px;
+        right: 1px;
+    }
+}
+
 @media screen and (max-width: 425px) {
+
+    .contenedor-menu-desplegable li {
+        font-size: 1.1rem;
+    }
 
     .contenedor-logo-menu {
         padding-left: 10px;
+    }
+
+    .logoPapeleria img {
+        width: 250px;
     }
 
     .quitar-logo-escondido {
@@ -345,10 +371,40 @@ footer p{
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
+
+    .contenedor-menu-desplegable {
+        background-color: rgba(143, 143, 143, 0.89);
+    }
+
+    .contenedor-menu-desplegable ul {
+        padding-left: 40px;
+    }
+    
+    .contenedor-menu-desplegable li:first-of-type {
+        padding: 0 0 15px 0;
+        margin-left: -40px;
+    }
+
+    .logoPapeleria {
+        text-align: center;
+    }
 
     .logoPapeleria img {
-        width: 250px;
+        width: 210px;
+        height: 50px;
+        margin: -30px 5px 0 5px;
+    }
+
+    .contenedor-menu-desplegable hr {
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .logoPapeleria {
+        text-align: left;
     }
 
     .quitar-logo-escondido {
