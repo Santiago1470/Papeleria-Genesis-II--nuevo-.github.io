@@ -66,47 +66,6 @@ header{
     background-color: rgb(94, 94, 94);
 }
 
-/*
-.menu{
-    position: relative;
-    top: 170px;
-    height: 50px;
-    background-color: #424242;
-}
-
-.menu ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 1.1rem;
-    padding: 0;
-}
-
-.menu ul li:not(.logoPapeleria){
-    padding: 14px;
-}
-
-.nav-inicio,
-.nav-servicios{
-    border-right: solid rgb(148, 148, 148) 2px;
-}
-
-.nav-papeleria,
-.nav-mas{
-    border-left: solid rgb(148, 148, 148) 2px;
-}
-
-.logoPapeleria img{
-    width: 280px;
-    height: 60px;
-    margin: -30px 5px 0 5px;
-    border: rgba(255, 255, 255, 0.603) solid 4px;
-}*/
-
-
-
-
 /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
 
 .container-oferta{
@@ -168,4 +127,51 @@ header{
 
 @media screen and (max-width: 750px){
 
+    .encabezado,
+    .opacarImg {
+        height: 450px;
+    }
+
+    .container-contacto{
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
+
+    .container-contacto .contacto-title{
+        font-size: 1rem;
+    }
+
+    .container-nombre h2 {
+        font-size: 1.7rem;
+    }
+
+    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
+
+    .tarjetas{
+        grid-template-columns: repeat(2, 235px);
+    }
+
+    .tarjetas div{
+        height: 304px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container-contacto .contacto-title{
+        font-size: 0.9rem;
+    }
+
+    .container-nombre h2 {
+        font-size: 1.6rem;
+    }
+
+    /* ---------------------- SECCION ¿QUE OFRECEMOS? ---------------------- */
+
+    .tarjetas{
+        grid-template-columns: repeat(1, 235px);
+    }
+
+    .tarjetas div{
+        height: 304px;
+    }
 }
