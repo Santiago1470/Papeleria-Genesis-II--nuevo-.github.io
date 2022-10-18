@@ -54,6 +54,7 @@ a{
     border: rgba(255, 255, 255, 0.603) solid 4px;
 }
 
+
 /* ---------------------- BARRA DE NAVEGACION MOBILE ---------------------- */
 
 .menuDesplegable,
@@ -96,6 +97,7 @@ a{
 .ocultar-logo-menu{
     visibility: hidden;
 }
+
 
 /* -------------------- CONTENEDOR MENU DESPLEGADO -------------------- */
 
@@ -174,6 +176,7 @@ a{
     transition: all ease 100ms;
 }
 
+
 /* --------------- SPAN PARA DIRECCIONAR A MENU DESPLEGABLE --------------- */
 
 #direccionar-a-menu {
@@ -181,9 +184,48 @@ a{
     top: -40px;
 }
 
+
+/* ------------------ MENU DESPLEGABLE DE OPCION MÁS ------------------ */
+
+.nav-mas {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-mas img {
+    width: 15px;
+}
+
+
+.menu-mas {
+    background-color: #424242;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#flecha-arriba-menu-mas {
+    display: none;
+}
+
+#dirigir-a-menu-mas {
+    position: absolute;
+    top: -40px;
+}
+
+/* ---------------- MENU MOBILE DESPLEGABLE DE OPCION MÁS ---------------- */
+
+
+
 /* -------------------- SECCION BASE DE DISEÑO TITULOS -------------------- */
 
 .titulos{
+    position: relative;
+    z-index: -2;
     margin: 30px auto;
     text-align: center;
     height: 56px;
