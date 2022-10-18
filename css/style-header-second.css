@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-opacar {
+    background-image: url(../imagenes/papeleria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    color: white;
+    margin-top: -20px;
+}
+
+.container-opacar .opacarImg{
+    position: absolute;
+    background-color: #AA5315;
+    opacity: 0.6;
+    width: 100%;
+    height: 60px;
+}

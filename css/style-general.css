@@ -100,7 +100,7 @@ a{
 /* -------------------- CONTENEDOR MENU DESPLEGADO -------------------- */
 
 .contenedor-menu-desplegable {
-    background-color: rgba(160, 160, 160, 0.808);
+    background-color: rgba(143, 143, 143, 0.89);
     position: absolute;
     width: 70%;
     top: 0;
@@ -372,13 +372,9 @@ footer p{
 }
 
 @media screen and (max-width: 400px) {
-
-    .contenedor-menu-desplegable {
-        background-color: rgba(143, 143, 143, 0.89);
-    }
-
+    
     .contenedor-menu-desplegable ul {
-        padding-left: 40px;
+        padding-left: 10px;
     }
     
     .contenedor-menu-desplegable li:first-of-type {

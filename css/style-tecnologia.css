@@ -1,17 +1,17 @@
 
-/* ---------------------- BARRA DE NAVEGACION ---------------------- */
+/* ---------------------- BARRA DE NAVEGACIÓN ---------------------- */
 
-.nav-servicios{
+.nav-tecnologia{
     background-color: rgb(94, 94, 94);
 }
 
-.navDesple-servicios {
+.navDesple-tecnologia {
     box-shadow: 0px 0px 6px 2px rgb(100, 100, 100);
     padding-left: 15px;
     margin-right: 10px;
 }
 
-/* -------------------- SECCIÓN SERVICIOS DISPONIBLES -------------------- */
+/* -------------------- SECCIÓN TECNOLOGÍA DISPONIBLE -------------------- */
 
 .container-oferta{
     padding: 10px;

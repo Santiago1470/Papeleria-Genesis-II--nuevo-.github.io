@@ -1,17 +1,18 @@
 
 /* ---------------------- BARRA DE NAVEGACION ---------------------- */
 
-.nav-servicios{
+.nav-papeleria {
     background-color: rgb(94, 94, 94);
 }
 
-.navDesple-servicios {
+.navDesple-papeleria {
     box-shadow: 0px 0px 6px 2px rgb(100, 100, 100);
     padding-left: 15px;
     margin-right: 10px;
 }
 
-/* -------------------- SECCIÓN SERVICIOS DISPONIBLES -------------------- */
+
+/* -------------------- SECCIÓN PAPELERÍA -------------------- */
 
 .container-oferta{
     padding: 10px;
