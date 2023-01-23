@@ -20,7 +20,7 @@ a{
 
 .menu{
     position: relative;
-    height: 50px;
+    height: 55px;
     background-color: #424242;
 }
 
@@ -111,6 +111,7 @@ a{
     border-bottom: 1px solid rgb(160, 160, 160);
     border-right: 1px solid rgb(160, 160, 160);
     box-shadow: 2px 2px 4px 1px gray;
+    z-index: 1;
 }
 
 .contenedor-menu-desplegable ul {
@@ -205,7 +206,7 @@ a{
     background-color: #424242;
     position: absolute;
     top: 0;
-    z-index: -1;
+    z-index: -10;
 }
 
 #flecha-arriba-menu-mas {
@@ -219,13 +220,29 @@ a{
 
 /* ---------------- MENU MOBILE DESPLEGABLE DE OPCION MÁS ---------------- */
 
+.navDesple-mas{
+    padding-right: 20px;
+}
 
+.menu-mobile-mas{
+    width: 100%;
+    background-color: rgba(143, 143, 143, 0.747);
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 100px;
+}
+
+.navDesple-tecnologia{
+    margin-left: 0 !important;
+    padding: 5px !important;
+}
 
 /* -------------------- SECCION BASE DE DISEÑO TITULOS -------------------- */
 
 .titulos{
     position: relative;
-    z-index: -2;
+    z-index: 0;
     margin: 30px auto;
     text-align: center;
     height: 56px;
@@ -450,9 +467,13 @@ footer p{
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 349px) {
 
     .contenedor-logo-menu {
         padding-left: 5px;
+    }
+
+    .logoPapeleria a{
+        padding-left: 30px;
     }
 }

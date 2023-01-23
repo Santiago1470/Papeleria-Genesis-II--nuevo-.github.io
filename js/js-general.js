@@ -34,15 +34,19 @@ function abrirMenuMas() {
     contador = contador + 1;
 
     if (contador % 2 == 0) {
+        opcionesDeMenuMas = document.getElementById("menu-mas").style.zIndex = "-10";
         contenedorMenuMas = document.getElementById("menu-mas").style.transform = "translateY(-50px)";
         contenedorMenuMas = document.getElementById("menu-mas").style.transition = "ease 500ms";    
 
         flechaArriba = document.getElementById("flecha-arriba-menu-mas").style.display = "none";
         flechaArriba = document.getElementById("flecha-abajo-menu-mas").style.display = "block";
+
     } else {
+        setTimeout(opcionesDeMenuMas = document.getElementById("menu-mas").style.zIndex = "1", 900);
         contenedorMenuMas = document.getElementById("menu-mas").style.transform = "translateY(50px)";
         contenedorMenuMas = document.getElementById("menu-mas").style.transition = "all ease 500ms";
         flechaAbajo = document.getElementById("flecha-arriba-menu-mas").style.display = "block";
         flechaAbajo = document.getElementById("flecha-abajo-menu-mas").style.display = "none";
+        
     }
 }

@@ -28,6 +28,13 @@
 .tarjetas div{
     background-color: gray;
     height: 304px;
+    /*border: 2px solid rgb(152, 152, 152);*/
+    box-shadow: 0.3px 0.3px 7px gray;
+}
+
+.tarjetas div img{
+    width: 100%;
+    height: 100%;
 }
 
 

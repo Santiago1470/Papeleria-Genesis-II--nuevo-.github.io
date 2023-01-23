@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style-tecnologia.css" />
     <link rel="stylesheet" href="css/style-header-second.css" />
     <link rel="shortcut icon" href="imagenes/logos/3.png" />
-    <title>Document</title>
+    <title>Tecnología</title>
 </head>
 <body>
     <header>
@@ -25,7 +25,17 @@
                 <li class="nav-servicios"><a href="servicios.html">SERVICIOS</a></li>
                 <li class="logoPapeleria"><a href="index.html"><img src="imagenes/logos/logoDA.png" alt="PAPELERÍA GENESIS II"></a></li>
                 <li class="nav-papeleria"><a href="papeleria.html">PAPELERÍA</a></li>
-                <li class="nav-mas"><a href="#">MÁS</a></li>
+                <li id="nav-mas" class="nav-mas">
+                    <span id="dirigir-a-menu-mas"></span>
+                    <a href="#dirigir-a-menu-mas">MÁS</a>
+                    <a href="#dirigir-a-menu-mas""><img id="flecha-abajo-menu-mas" src="imagenes/logos/icono-abajo-menu-mas-blanco.png" alt="Icono de flecha hacia abajo"></a>
+                    <a href="#dirigir-a-menu-mas""><img id="flecha-arriba-menu-mas" src="imagenes/logos/icono-arriba-menu-mas-blanco.png" alt="Icono de flecha hacia arriba"></a>
+                    <div id="menu-mas" class="menu-mas">
+                        <ul>
+                            <li class="nav-tecnologia"><a href="tecnologia.html">TECNOLOGÍA</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </nav>
         <nav class="menuDesplegable">
@@ -51,26 +61,38 @@
                     <li class="navDesple-inicio"><a href="index.html">INICIO</a></li>
                     <li class="navDesple-servicios"><a href="servicios.html">SERVICIOS</a></li>
                     <li class="navDesple-papeleria"><a href="papeleria.html">PAPELERÍA</a></li>
-                    <li class="navDesple-mas"><a href="#">MÁS</a></li>
+                    <li class="navDesple-mas">
+                        <a href="#">MÁS</a>
+                        <div class="menu-mobile-mas">
+                            <ul>
+                                <li class="navDesple-tecnologia"><a href="tecnologia.html">TECNOLOGÍA</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
     <section class="section-tecnologia">
         <div class="titulos">
-            <h3 class="titulo-tecnologia">PAPELERÍA DISPONIBLE</h3>
+            <h3 class="titulo-tecnologia">TECNOLOGÍA DISPONIBLE</h3>
         </div>
         <div class="container-oferta">
             <div class="tarjetas">
                 <div>
+                    <img src="imagenes/usb.png" alt="USBs">
                 </div>
                 <div>
+                    <img src="imagenes/teclados.png" alt="Teclados">
                 </div>
                 <div>
+                    <img src="imagenes/mouse.png" alt="Mouse">
                 </div>
                 <div>
+                    <img src="imagenes/cablesCargadores.png" alt="Cargadores de celular">
                 </div>
                 <div>
+                    <img src="imagenes/audifonos.png" alt="Audífonos">
                 </div>
             </div>
         </div>
