@@ -228,9 +228,10 @@ a{
     width: 100%;
     background-color: rgba(143, 143, 143, 0.747);
     padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 5px;
     margin-left: 5px;
-    height: 100px;
+    height: fit-content;
 }
 
 .navDesple-tecnologia{
